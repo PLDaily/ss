@@ -1,0 +1,17 @@
+{
+  "server": "0.0.0.0",
+  "server_port": 8080,
+  "password": "123456",
+  "method": "aes-256-gcm",
+  "timeout": 180,
+  "user": "nobody",
+  "fast_open": false,
+  "reuse_port": true,
+  "no_delay": true,
+  "plugin": "/usr/local/bin/gq-server",
+  "plugin_opts": "/usr/local/etc/gqserver.json",
+  "ipv6_first": false,
+  "nofile": 65535,
+  "nameserver": "1.1.1.1",
+  "mode": "tcp_and_udp"
+}
