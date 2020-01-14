@@ -1,0 +1,15 @@
+{
+    "server": "11.11.11.11",
+    "server_port": 8080,
+    "local_address": "0.0.0.0",
+    "local_port": 8085,
+    "password": "123456",
+    "method": "aes-256-gcm",
+    "timeout": 180,
+    "fast_open": false,
+    "reuse_port": true,
+    "no_delay": true,
+    "plugin": "/usr/local/bin/gq-client",
+    "plugin_opts": "/usr/local/etc/gqclient.json",
+    "mode": "tcp_and_udp"
+}
